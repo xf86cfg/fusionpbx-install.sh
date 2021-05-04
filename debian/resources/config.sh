@@ -1,6 +1,6 @@
 
 # FusionPBX Settings
-domain_name=ip-172-31-18-246.ap-southeast-1.compute.internal          # hostname, ip_address or a custom value
+domain_name=localhost          # hostname, ip_address or a custom value
 system_username=admin           # default username admin
 system_password=ChangeMeSystemPass          # random or a custom value
 system_branch=master            # master, stable
@@ -13,10 +13,10 @@ switch_version=1.10.3           # only for source
 switch_tls=true                 # true or false
 
 # Database Settings
-database_password=ChangeMeDbPass        # random or a custom value (safe characters A-Z, a-z, 0-9)
+database_password=ChangeMeSuperuserPass        # random or a custom value (safe characters A-Z, a-z, 0-9)
 database_repo=official          # PostgreSQL official, system, 2ndquadrant
 database_version=latest         # requires repo official
-database_host=127.0.0.1         # hostname or IP address
+database_host=db         # hostname or IP address
 database_port=5432              # port number
 database_backup=false           # true or false
 
