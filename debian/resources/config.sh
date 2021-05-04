@@ -16,7 +16,7 @@ switch_tls=true                 # true or false
 database_password=ChangeMeSuperuserPass        # random or a custom value (safe characters A-Z, a-z, 0-9)
 database_repo=official          # PostgreSQL official, system, 2ndquadrant
 database_version=latest         # requires repo official
-database_host=db         # hostname or IP address
+database_host=172.19.0.2        # hostname or IP address
 database_port=5432              # port number
 database_backup=false           # true or false
 
